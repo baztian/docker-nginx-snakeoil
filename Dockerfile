@@ -1,4 +1,4 @@
-FROM nginx:1.21.3
+FROM nginx:1.23.0
 RUN mkdir -p /etc/nginx/ssl/ \
     && openssl req \
             -x509 \
